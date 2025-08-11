@@ -12,15 +12,15 @@ int main(){
     
          printf("Cadastre a primeira carta\n\n");
          printf("Digite a Inicial do Estado(A a H): ");
-         scanf(" %c", estado1);
+         scanf(" %c", &estado1);
          getchar();  
 
          printf("Digite o Código da Cidade(ex:A01,C03,E04): ");
-         scanf(" %s", codigo1);
+         scanf(" %9s", codigo1);
 
          printf("Digite o Nome da Cidade: ");
          scanf(" %s", nome1);
-    
+
          printf("Digite a População: ");
          scanf(" %i", &populaçao1);
      
@@ -47,7 +47,7 @@ int main(){
 
          getchar();//limpando o buffer
          printf("Digite o Código da Cidade(ex:A01,C03,E04): ");
-         scanf("%s", codigo2);
+         scanf("%9s", codigo2);
 
          printf("Digite o nome da Cidade: ");
          scanf(" %s", nome2);
